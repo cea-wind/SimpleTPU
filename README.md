@@ -16,5 +16,5 @@ Phase one is complete, including two basic module
 - Lab2:Relu, Normalization & Pooling 
 
 
-#Relative Link  
+# Relative Link  
 https://www.cnblogs.com/sea-wind/p/10993958.html

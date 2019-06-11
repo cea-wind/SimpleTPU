@@ -1,5 +1,5 @@
 
-#Relu, Normalization & Pooling 
+# Relu, Normalization & Pooling 
 
 Basic Module of Tensor Processing Unit
 
