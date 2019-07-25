@@ -21,6 +21,7 @@ The key features of Simple TPU including
 - Vector Architecture based data parallel
 
 Here are some operate which Simple TPU can support. 
+
 Operate | Support
 -|-
 Conv3d | in_channels: Resource Constrained  <br> out_channels: Resource Constrained<br>kerner_size: Support<br>stride: support<br>padding: Support<br>dilation:Support<br>groups: Architecture Constrained<br>bias    :Support
@@ -70,12 +71,13 @@ class MLP(nn.Module):
 
 Work efficiency of SimpleTPU is about 84%.
 
-LOC | Layers | Nonlinear function | Weights | Batch Size | % of Deployed
--|-|-|-|-|-|-
-10 | 2 FC | Relu | 5M | 512 | 16%
 
+|LOC| Layers | Nonlinear function | Weights | Batch Size | % of Deployed|
+|---|---|---|----|----|----|
+|10 | 2 FC | Relu | 5M | 512 | 16%|
 
 Classfication Result in MNIST.
+
 ![result](./pictures/cla_result.png)
 ## 2. CNN
 Because there is no compiler to generate instruction, this plan was suspended.
